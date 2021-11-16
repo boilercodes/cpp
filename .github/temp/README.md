@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/{repo}">
-    <img src="https://cdn-icons-png.flaticon.com/512/581/581600.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">{title}</h3>

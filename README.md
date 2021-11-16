@@ -1,13 +1,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/rmenai-blueprints/cpp">
-    <img src="https://cdn-icons-png.flaticon.com/512/581/581600.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Base</h3>
+<h3 align="center">C++</h3>
 
   <p align="center">
-    The base of all my project templates
+    A general-purpose programming language, "C with Classes"
     <br />
     <a href="https://github.com/rmenai-blueprints/cpp"><strong>Explore the docs »</strong></a>
     <br />
