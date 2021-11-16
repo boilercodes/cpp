@@ -21,6 +21,11 @@ title="$(TitleCaseConverter "$title")"
 
 repo="$author/$name"
 
+# Change pyproject.toml
+sed -i "s|rmenai-blueprints/cpp|$name|g" pyproject.toml # Separator is |
+sed -i "s/My C++ template/$description/g" pyproject.toml # Remove description
+sed -i "s/rmenai <rami.menai@outlook.com>/$author/g" pyproject.toml # Replace authors
+
 # Change LICENSE
 sed -i "s|rmenai-blueprints/cpp|$name|g" LICENSE # Separator is |
 
