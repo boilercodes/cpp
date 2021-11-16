@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai-blueprints/base">
+  <a href="https://github.com/rmenai-blueprints/cpp">
     <img src="https://cdn-icons-png.flaticon.com/512/581/581600.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     The base of all my project templates
     <br />
-    <a href="https://github.com/rmenai-blueprints/base"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rmenai-blueprints/cpp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai-blueprints/base">View Demo</a>
+    <a href="https://github.com/rmenai-blueprints/cpp">View Demo</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/base/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/rmenai-blueprints/cpp/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/base/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/rmenai-blueprints/cpp/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -67,13 +67,13 @@ will change all the files to match your repository.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/base/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/cpp/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/base/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/cpp/blob/main/LICENSE) for more
 information.
 
 <!-- CONTACT -->
