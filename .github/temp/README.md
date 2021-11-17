@@ -63,12 +63,16 @@ git clone https://github.com/{repo}.git
 ### For development
 
 The requirements are:
+* [Python](https://www.python.org/downloads/) and [Poetry](https://python-poetry.org/docs/)
+* [gcc]() and [](cmake)
 
-* [...]()
-
-1. Install the dependencies
+1. Install the python dependencies
    ```shell
-   ...
+   poetry install
+   ```
+2. Install the C++ dependencies
+   ```shell
+   poetry run task conan
    ```
 
 ## Environment Variables
@@ -87,7 +91,12 @@ To run this project, you will need to add the following environment variables.
 Now you are done! You can run the project using
 
 ```shell
-...
+poetry run task start
+```
+
+Don't forget to build it using
+```shell
+poetry run task build
 ```
 
 ## Contributing
