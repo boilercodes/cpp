@@ -21,5 +21,8 @@ build-backend = "poetry.core.masonry.api"
 conan = "conan install . -if cmake-build"
 cmake = 'cmake -B cmake-build -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles"'
 build = "cmake --build cmake-build"
+test = "cmake-build/bin/test*"
+start = "cmake-build/bin/app*"
+clang = "sudo apt-get install clang clang-format clang-tidy"
 lint = "pre-commit run --all-files"
 precommit = "pre-commit install"

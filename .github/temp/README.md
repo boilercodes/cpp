@@ -84,7 +84,7 @@ To run this project, you will need to add the following environment variables.
 
 ## Usage
 
-Now you are done! You can run the project using 
+Now you are done! You can run the project using
 
 ```shell
 ...
