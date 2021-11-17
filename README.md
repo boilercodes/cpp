@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rmenai-blueprints/cpp">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="Logo" width="80">
   </a>
 
 <h3 align="center">C++</h3>
