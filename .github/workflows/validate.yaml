@@ -68,13 +68,11 @@ jobs:
       - name: Install linting tools
         run: poetry run task clang
 
-      - name: Initiate PlatformIO
-        run: poetry run task init
+      - name: Install conan dependencies
+        run: poetry run task conan
 
       - name: Build cmake
-        run: |
-          poetry run task conan
-          poetry run task cmake
+        run: poetry run task cmake
 
       # Only when the context is exactly the same, we will restore the cache.
       - name: Pre-commit environment caching
