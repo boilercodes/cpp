@@ -90,3 +90,6 @@ jobs:
 
       - name: Build project
         run: poetry run task build
+
+      - name: Test project
+        run: poetry run task test
