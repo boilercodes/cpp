@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 # Project settings.
 project(app)
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Gather the header and source files.
 file(GLOB INC_FILES ${PROJECT_SOURCE_DIR}/src/*.hpp)

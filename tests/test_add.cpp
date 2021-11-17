@@ -4,11 +4,9 @@
 
 #include <gtest/gtest.h>
 
-int add(int i, int j) {
-    return i + j;
-}
+int add(int i, int j) { return i + j; }
 
 TEST(test_add, BasicAssertions) {
-    // Expect equality.
-    EXPECT_EQ(add(2, 2), 4);
+  // Expect equality.
+  EXPECT_EQ(add(2, 2), 4);
 }
