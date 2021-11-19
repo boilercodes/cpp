@@ -24,6 +24,7 @@ file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 # Build.
 add_executable(app ${INC_FILES} ${SRC_FILES})
+set_target_properties(app PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Unit tests.
 enable_testing()
