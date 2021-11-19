@@ -62,24 +62,6 @@ jobs:
           pip install poetry
           poetry install --no-interaction
 
-      # Install pre-commit linting dependencies.
-      - name: Install linting tools
-        run: poetry run task clang
-
-      # Only when the context is exactly the same, we will restore the cache.
-      - name: Pre-commit environment caching
-        uses: actions/cache@v2
-        with:
-          path: ${{ env.PRE_COMMIT_HOME }}
-          key: "precommit-0-${{ runner.os }}-${{ env.PRE_COMMIT_HOME }}-\
-               ${{ steps.python.outputs.python-version }}-\
-               ${{ hashFiles('./.pre-commit-config.yaml') }}"
-
-      # As pre-commit does not support user installs, we set
-      # PIP_USER=0 to not do a user install.
-      - name: Run pre-commit hooks
-        run: export PIP_USER=0; poetry run task lint
-
       # Only when the context is exactly the same, we will restore the cache.
       - name: Hunter dependencies caching
         uses: actions/cache@v2
@@ -90,6 +72,24 @@ jobs:
 
       - name: Build cmake
         run: poetry run task cmake
+
+      # Install pre-commit linting dependencies.
+      - name: Install linting tools
+        run: poetry run task clang
+
+      # Only when the context is exactly the same, we will restore the cache.
+      - name: Pre-commit environment caching
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.PRE_COMMIT_HOME }}
+          key: "precommit-0-${{ runner.os }}-${{ env.PRE_COMMIT_HOME }}-\
+                 ${{ steps.python.outputs.python-version }}-\
+                 ${{ hashFiles('./.pre-commit-config.yaml') }}"
+
+      # As pre-commit does not support user installs, we set
+      # PIP_USER=0 to not do a user install.
+      - name: Run pre-commit hooks
+        run: export PIP_USER=0; poetry run task lint
 
       - name: Build project
         run: poetry run task build
