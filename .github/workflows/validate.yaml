@@ -68,9 +68,6 @@ jobs:
       - name: Install linting tools
         run: poetry run task clang
 
-      - name: Install conan dependencies
-        run: poetry run task conan
-
       - name: Build cmake
         run: poetry run task cmake
 
