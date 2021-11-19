@@ -7,7 +7,6 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-conan = "^1.42.1"
 taskipy = "^1.9.0"
 
 [tool.poetry.dev-dependencies]
@@ -18,7 +17,6 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
-conan = "conan install . -if cmake-build"
 cmake = 'cmake -B cmake-build -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles"'
 build = "cmake --build cmake-build"
 test = "cmake-build/bin/test*"
