@@ -32,9 +32,6 @@
         <li><a href="#for-development">For development</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#environment-variables">Environment Variables</a>
-    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
