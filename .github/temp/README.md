@@ -64,25 +64,16 @@ git clone https://github.com/{repo}.git
 
 The requirements are:
 * [Python](https://www.python.org/downloads/) and [Poetry](https://python-poetry.org/docs/)
-* [gcc]() and [](cmake)
+* [gcc](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/) and [cmake](https://cmake.org/)
 
 1. Install the python dependencies
    ```shell
    poetry install
    ```
-2. Install the C++ dependencies
+2. Build cmake
    ```shell
-   poetry run task conan
+   poetry run task cmake
    ```
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables.
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| ...      | ...         | ...     |
-
 
 <!-- USAGE EXAMPLES -->
 

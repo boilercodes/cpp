@@ -29,6 +29,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#features">Features</a></li>
     <ul>
+        <li><a href="#project">Project</a></li>
         <li><a href="#github">Github</a></li>
       </ul>
     <li><a href="#contributing">Contributing</a></li>
@@ -56,10 +57,16 @@ will change all the files to match your repository.
 
 ## Features
 
+### Project:
+* [CMake](https://cmake.org/) for build automation.
+* [Hunter](https://hunter.readthedocs.io/en/latest/) for dependency management.
+* [GTest](https://github.com/google/googletest) for writing powerful tests.
+* [pre-commit](https://pre-commit.com/) for git hooks linting.
+
+
 ### GitHub:
-* [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/validate.yaml)
-  and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) GitHub
-  workflows.
+* [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/validate.yaml) GitHub
+  workflow.
 * [Issues](https://github.com/rmenai/python-structure/tree/main/.github/ISSUE_TEMPLATE)
   and [pull requests](https://github.com/rmenai/python-structure/blob/main/.github/pull_request_template.md) templates.
 
