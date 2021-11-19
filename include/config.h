@@ -1,6 +1,6 @@
-#ifndef CPP_CONFIG_H
-#define CPP_CONFIG_H
+#ifndef CONFIG_H
+#define CONFIG_H
 
-namespace Settings {}
+namespace Settings {};
 
-#endif // CPP_CONFIG_H
+#endif // CONFIG_H
