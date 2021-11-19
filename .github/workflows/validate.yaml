@@ -73,23 +73,9 @@ jobs:
       - name: Build cmake
         run: poetry run task cmake
 
-      # Only when the context is exactly the same, we will restore the cache.
-      - name: Linting tools caching
-        uses: actions/cache@v2
-        id: clang_cache
-        with:
-          path: |
-            /usr/bin/clang-format
-            /usr/bin/chang-tidy
-          key: "clang-0-${{ runner.os }}"
-
       # Install pre-commit linting dependencies.
       - name: Install linting tools
-        if: steps.clang_cache.outputs.cache-hit != 'true'
-        run: |
-          poetry run task clang
-          whereis clang-tidy
-          whereis clang-format
+        run: poetry run task clang
 
       # Only when the context is exactly the same, we will restore the cache.
       - name: Pre-commit environment caching
