@@ -86,7 +86,10 @@ jobs:
       # Install pre-commit linting dependencies.
       - name: Install linting tools
         if: steps.clang_cache.outputs.cache-hit != 'true'
-        run: poetry run task clang
+        run: |
+          poetry run task clang
+          whereis clang-tidy
+          whereis clang-format
 
       # Only when the context is exactly the same, we will restore the cache.
       - name: Pre-commit environment caching
