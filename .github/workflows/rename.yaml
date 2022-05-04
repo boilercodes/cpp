@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   rename:
     if: ${{ github.repository != 'rmenai-blueprints/cpp' }}
