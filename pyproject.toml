@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rmenai-blueprints/cpp"
+name = "boilercodes/cpp"
 version = "0.1.0"
 description = "My C++ template"
 authors = ["rmenai <rami.menai@outlook.com>"]

@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai-blueprints/cpp">
+  <a href="https://github.com/boilercodes/cpp">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" alt="Logo" width="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     A general-purpose programming language, "C with Classes"
     <br />
-    <a href="https://github.com/rmenai-blueprints/cpp"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/boilercodes/cpp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai-blueprints/cpp">View Demo</a>
+    <a href="https://github.com/boilercodes/cpp">View Demo</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/cpp/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/boilercodes/cpp/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/cpp/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/boilercodes/cpp/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -74,13 +74,13 @@ will change all the files to match your repository.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/cpp/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/boilercodes/cpp/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/cpp/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/boilercodes/cpp/blob/main/LICENSE) for more
 information.
 
 <!-- CONTACT -->
